@@ -1,5 +1,4 @@
-console.log('Hello Blog')
+import { HeaderComponent } from './components/header.component';
 
-const app = async () => {
-    await fetch('test Babel')
-}
+const header = new HeaderComponent('header')
+// console.log(header)
